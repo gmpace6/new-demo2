@@ -187,7 +187,7 @@ if(colors[i] === "red"){
         -- git clone = download repository from github
         -- git status = check status of git
         -- git add = stages changes for next commit
-        -- git commit = saves stage of the file in thr repository
+        -- git commit = saves stage of the file in the repository
         -- git push = pushed changes to repository to online repo at github
     - How to push git to github ---------- login to github, create repository, copy lines into local terminal, ENTER, then 'git push' updates afterward
 */
