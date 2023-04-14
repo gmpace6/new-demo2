@@ -127,8 +127,15 @@ let price = [10, 5, 6];
     Using for loop, calculate the total price from the 'price' array above.
 */
 
-//CODE HERE
+// for(let i = 0; i >5; i++){
+// }
 
+
+let totalPrice = 0
+
+for(let i = 0; i < price.length; i++){
+totalPrice = totalPrice + price[i]
+console.log(totalPrice)}
 
 
 /* 
@@ -136,17 +143,27 @@ let price = [10, 5, 6];
 */
 
 
+let avgPrice = totalPrice / price.length
+console.log(avgPrice)
 
 // !!! Don't edit the code below !!! //
-let colors = ['red', 'green', 'yellow', 'red', 'green']
+let colors = ['red', 'green', 'yellow', 'red', 'green','purple']
 // !!! Don't edit the code above !!! //
 
 /* 
     Loop through the colors array above. Then, print 'apple' if the color is red, print 'melon' if the color is green, and print 'banana' when the color is yellow.
 */
 
-// CODE HERE
-
+for(let i = 0; i < colors.length; i++){
+if(colors[i] === "red"){
+    console.log("apple")
+}else if (colors[i] === "yellow"){
+    console.log("banana")
+}else if (colors[i] === "green"){
+    console.log("melon")
+}else {console.log("ERROR")
+}
+}
 
 
 // ***** Software Development Life Cycle (SDLC) ***** //
@@ -164,14 +181,14 @@ let colors = ['red', 'green', 'yellow', 'red', 'green']
 /* 
     Discuss:
     - Definition of:
-        -- git
-        -- github
-        -- git init
-        -- git clone
-        -- git status
-        -- git add
-        -- git commit
-        -- git push
-    - How to push git to github
+        -- git = version control software
+        -- github = website, host for git repositories
+        -- git init = initializes git on a folder on your machine
+        -- git clone = download repository from github
+        -- git status = 
+        -- git add = stages changes for next commit
+        -- git commit = saves stage of the file in thr repository
+        -- git push = pushed changes to repository to online repo at github
+    - How to push git to github ---------- 
 */
 
