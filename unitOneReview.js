@@ -8,54 +8,43 @@ let season = "winter"
 let color = `red`
 let number = 20
 let numberString = '20'
-console.log(myName)
-console.log(season)
-console.log(color)
-console.log(number, typeof number)
-console.log(numberString, typeof numberString)
 let todayIsCold = false
 let chiliIsSpicy = true
 let pizza = null
-console.log(todayIsCold)
-console.log(chiliIsSpicy)
-console.log(pizza)
 let food
-console.log(food)
-
 let myFavColor = `My favorite color is ${color}` // template literal
 let myFavColor2 = "My favorite color is " + color  // concatenation
-
-console.log(myFavColor)
-console.log(myFavColor2)
+let myFavNumber = "My favorite number is " + number
+let myFavNumber2 = `My favorite number is${number}`
+console.log("My favorite number is ", number)
 
 // ***** Array ***** //
 /*
     Create an array of strings called 'codingLanguages' that include 4 coding language of your choice. 
 */
 
-//CODE HERE
+let codingLanguages = ['javaScript', 'python', 'java', 'swift', 'c++'] // [] = empty array
 
 
 /* 
     Access the 3rd element of the 'codingLanguages' array.
 */
 
-//CODE HERE
-
+console.log(codingLanguages[2])
 
 /*
     Copy the array using one of the array methods, and call it 'codingLanguages2.'
 */
 
-//CODE HERE
-
+let codingLanguages2 = codingLanguages.slice()
+console.log(codingLanguages2)
 
 /* 
     Add another coding language to the codingLanguages2 array.
 */
 
-//CODE HERE
-
+codingLanguages2.push("rust", "php")
+console.log(codingLanguages2)
 
 // !!! Don't edit the code below !!! //
 let instruments = ['piano', 'trumpet', 'xylophone', 'flute', 'cello']
